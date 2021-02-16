@@ -16,6 +16,7 @@ body {
 header {
   background: var(--colorheader);
   height: 100px;
+  color: white;
 }
 
 article {
@@ -31,4 +32,10 @@ aside {
 footer {
   background: var(--colorfooter);
   height: 100px;
+  color: white;
+}
+
+/* Globales */
+header, article, aside {
+  padding: 30px 20px;
 }
